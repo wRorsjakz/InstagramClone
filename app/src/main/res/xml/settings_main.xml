@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="General">
+        <Preference
+            android:title="Edit Profile"
+            android:key="@string/edit_profile_key"
+            />
+
+    </PreferenceCategory>
+
+    <SwitchPreference
+        android:title="Disable Notification"
+        android:key="disable_notification_key"
+        android:defaultValue="false"
+        />
+
+    <CheckBoxPreference
+        android:title="Check Box Preference"
+        android:key="check_box_key"
+        android:defaultValue="true"
+        />
+
+    <Preference
+        android:title="Sign Out"
+        android:key="@string/sign_out_key"
+        />
+
+</PreferenceScreen>

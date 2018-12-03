@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference android:layout="@layout/edit_profile_header" />
+
+    <Preference
+        android:icon="@drawable/ic_person_black_24dp"
+        android:key="edit_profile_username_key"
+        android:summary="Insert Username Name"
+        android:title="Username" />
+
+    <EditTextPreference
+        android:dialogMessage="Change your profile name"
+        android:dialogTitle="Profile Name"
+        android:icon="@drawable/ic_perm_contact_calendar_black_24dp"
+        android:key="edit_profile_profile_name_key"
+        android:summary="Insert Profile Name"
+        android:title="Profile Name" />
+
+    <EditTextPreference
+        android:dialogMessage="Change your status"
+        android:dialogTitle="Status"
+        android:icon="@drawable/ic_status_black_24dp"
+        android:key="edit_profile_status_key"
+        android:summary="Insert Status"
+        android:title="Status" />
+
+    <ListPreference
+        android:defaultValue="Singapore"
+        android:dialogTitle="Change your location"
+        android:entries="@array/listpreference_location_title"
+        android:entryValues="@array/listpreference_location_values"
+        android:icon="@drawable/ic_place_black_24dp"
+        android:key="edit_profile_location_key"
+        android:summary="Insert Location"
+        android:title="Location" />
+
+    <EditTextPreference
+        android:dialogMessage="Change your website"
+        android:dialogTitle="Website"
+        android:icon="@drawable/ic_web_black_24dp"
+        android:key="edit_profile_website_key"
+        android:summary="Insert Website URL"
+        android:title="Website" />
+
+    <PreferenceCategory android:title="Private Information">
+
+        <Preference
+            android:icon="@drawable/ic_email_black_24dp"
+            android:key="edit_profile_email_address_key"
+            android:summary="Insert Email Address"
+            android:title="Email Address" />
+
+        <Preference
+            android:icon="@drawable/ic_local_phone_black_24dp"
+            android:key="edit_profile_phone_number_key"
+            android:summary="Insert Phone Number"
+            android:title="Phone Number" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

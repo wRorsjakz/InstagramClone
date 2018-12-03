@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShareActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/activity_share_appbarlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/activity_share_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark"
+            app:title="Share this photo" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/activity_share_appbarlayout"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/activity_share_imageview"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:background="@color/colorPrimaryDark"
+            android:scaleType="centerCrop" />
+
+        <FrameLayout
+            android:id="@+id/activity_share_framelayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/activity_share_imageview"
+            android:layout_marginTop="10dp">
+
+            <EditText
+                android:id="@+id/activity_share_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_below="@id/activity_share_imageview"
+                android:layout_marginTop="14dp"
+                android:background="@android:color/transparent"
+                android:hint="Write a description..." />
+
+            <ProgressBar
+                android:id="@+id/activity_share_progressbar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="gone" />
+
+        </FrameLayout>
+
+        <Button
+            android:id="@+id/activity_share_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/activity_share_framelayout"
+            android:layout_marginTop="30dp"
+            android:background="@color/colorAccent"
+            android:text="Share now"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

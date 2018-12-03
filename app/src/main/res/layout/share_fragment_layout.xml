@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/share_fragment_coordinatorlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/share_fragment_appbarlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/share_fragment_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark"
+            app:title="Share your moments">
+
+            <TextView
+                android:id="@+id/share_fragment_next_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Next"
+                android:layout_marginEnd="12dp"
+                android:textSize="20sp"
+                android:padding="4dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:layout_gravity="end|right|center_horizontal"/>
+
+        </android.support.v7.widget.Toolbar>
+
+
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout
+        android:id="@+id/share_fragment_relativelayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <FrameLayout
+            android:id="@+id/framelayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/share_fragment_imageview"
+                android:layout_width="match_parent"
+                android:layout_height="280dp" />
+
+        </FrameLayout>
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/share_fragment_recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/framelayout"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+
+        <ProgressBar
+            android:id="@+id/share_fragment_progressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/share_fragment_camera_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_anchor="@id/share_fragment_recyclerview"
+        app:layout_anchorGravity="bottom|end|right"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="18dp"
+        android:src="@drawable/ic_photo_camera_white_24dp"
+        app:fabSize="normal" />
+
+</android.support.design.widget.CoordinatorLayout>

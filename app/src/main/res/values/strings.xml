@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">InstagramClone</string>
+    <string name="edit_profile_key">edit_profile_key</string>
+    <string name="sign_out_key">sign_out_key</string>
+    <string name="back"><![CDATA[<< Back]]></string>
+    <string name="default_image_url_string">https://www.ienglishstatus.com/wp-content/uploads/2018/04/Anonymous-Whatsapp-profile-picture.jpg</string>
+    <string name="user_account_settings">user_account_settings</string>
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="sameple_urls">
+
+        <item>https://i.pinimg.com/736x/60/cf/db/60cfdb96744a9cc380f96b23b1d7550d--cute-instagram-photo-ideas-cute-pictures-for-instagram.jpg</item>
+        <item>https://i.pinimg.com/originals/ff/0d/e8/ff0de8c931d941ec43ea384c89fbc4c9.jpg</item>
+        <item>https://cpb-us-w2.wpmucdn.com/sites.stedwards.edu/dist/0/1950/files/2014/03/and-heres-an-instagram-he-took-in-india-for-the-louis-xiii-product-launch-raikig.png</item>
+        <item>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSehJEFbHAAqr6kLNpqCsV60cgYZ8BpXsh6qnVkDFlnAarAdsLM</item>
+        <item>http://wearehandsome.com/wp-content/uploads/2012/05/2012-03-05_1330942984.jpg</item>
+        <item>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnBoobdF-0G2Ay_OsQOdecSxFP_NhnV0Zz2jxsHs6Tgf1iKPqZ</item>
+        <item>https://i.pinimg.com/originals/4d/97/0e/4d970ea66d56f036973500769e77ae16.jpg</item>
+        <item>https://i.pinimg.com/736x/76/02/c5/7602c5d170116dca90fc329045df5b27--hipster-photography-photography-ideas.jpg</item>
+        <item>https://i.pinimg.com/originals/ec/bf/1b/ecbf1b497ae0ff86624c7650a92c2601.jpg</item>
+
+    </string-array>
+
+
+    <string-array name="listpreference_location_values">
+
+        <item>Australia</item>
+        <item>Bangladesh</item>
+        <item>Bhutan</item>
+        <item>Brunei</item>
+        <item>Cambodia</item>
+        <item>China</item>
+        <item>Malaysia</item>
+        <item>India</item>
+        <item>Singapore</item>
+        <item>Indonesia</item>
+        <item>Japan</item>
+        <item>South Korea</item>
+        <item>Sri Lanka</item>
+        <item>Tibet</item>
+        <item>Laos</item>
+        <item>Thailand</item>
+        <item>Vietnam</item>
+        <item>Myanmar</item>
+        <item>Pakistan</item>
+        <item>New Zealand</item>
+        <item>Fiji</item>
+
+    </string-array>
+
+    <string-array name="listpreference_location_title">
+
+        <item>Australia</item>
+        <item>Bangladesh</item>
+        <item>Bhutan</item>
+        <item>Brunei</item>
+        <item>Cambodia</item>
+        <item>China</item>
+        <item>Malaysia</item>
+        <item>India</item>
+        <item>Singapore</item>
+        <item>Indonesia</item>
+        <item>Japan</item>
+        <item>South Korea</item>
+        <item>Sri Lanka</item>
+        <item>Tibet</item>
+        <item>Laos</item>
+        <item>Thailand</item>
+        <item>Vietnam</item>
+        <item>Myanmar</item>
+        <item>Pakistan</item>
+        <item>New Zealand</item>
+        <item>Fiji</item>
+
+    </string-array>
+
+</resources>

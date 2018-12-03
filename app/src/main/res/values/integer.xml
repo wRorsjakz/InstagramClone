@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="read_external_storage_request_code">0</integer>
+    <integer name="write_external_storage_request_code">1</integer>
+    <integer name="camera_request_code">2</integer>
+
+    <!--This is request code for Manifest.permission.READ_EXTERNAL_STORAGE,
+   Manifest.permission.WRITE_EXTERNAL_STORAGE-->
+    <integer name="permission_array_storage_request_code">101</integer>
+    
+    <integer name="request_image_capture">10</integer>
+
+
+</resources>
